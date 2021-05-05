@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @abhijitmabhi
 - 👀 I’m interested in Software Development
 - 🌱 I’m currently learning ASP.NET Core
-- 💞️ I’m looking to collaborate on Angular & VueJS
+- 💞️ I’m looking to collaborate on Angular, ReactJs & VueJS
 - 📫 How to reach me: abhi.m.abhijit@gmail.com
 
 <!---

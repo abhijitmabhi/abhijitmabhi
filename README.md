@@ -2,11 +2,11 @@
 
 I'm a passionate and pragmatic Software Engineer with experience in designing and developing scalable applications using modern technologies.
 
-🎓 Master's in Computer Science from [RPTU Kaiserslautern-Landau](https://www.rptu.de/)  
-💼 Currently working at CGI, Berlin – building robust microservices for Volkswagen AG  
+💼 Currently working at [N26](https://www.n26.com/)
+🎓 Master's in Computer Science from [RPTU Kaiserslautern-Landau](https://www.rptu.de/)
 
 ---
-
+<!--
 ## 🚀 Tech Stack & Specialization
 
 - 🧠 Java, Spring Boot, JPA, Hibernate, REST, Microservices  
@@ -15,15 +15,14 @@ I'm a passionate and pragmatic Software Engineer with experience in designing an
 - 💻 React, TypeScript, Angular, .NET Core, GraphQL  
 - 📜 Agile Methodologies – SCRUM, SAFe 6  
 - ☁️ DevOps – CI/CD with GitHub Actions, Dockerized apps, AWS ECS (learning)
-
----
+-->
 
 ## 👨‍💻 Work Experience Highlights
 
 ### 🏢 CGI, Berlin, Germany — *Software Developer*  
-**Jul 2022 – Present**  
-- Developing data transfer protocol services for **Volkswagen AG**  
-- Working on full-stack features using **JAVA**, **Spring Boot**, **RabbitMQ**, and **ReactJS**
+**Jul 2022 – Aug 2025**  
+- Developed data transfer protocol services for **Volkswagen AG**  
+- Worked on full-stack features using **JAVA**, **Spring Boot**, **RabbitMQ**, and **ReactJS**
 
 ### 🧪 Fraunhofer IESE — *Research Assistant & Thesis Intern*  
 **Mar 2022 – Jun 2022** (Research Assistant)  

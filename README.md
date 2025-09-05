@@ -3,6 +3,7 @@
 I'm a passionate and pragmatic Software Engineer with experience in designing and developing scalable applications using modern technologies.
 
 💼 Currently working at [N26](https://www.n26.com/)
+
 🎓 Master's in Computer Science from [RPTU Kaiserslautern-Landau](https://www.rptu.de/)
 
 ---

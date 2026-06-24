@@ -12,7 +12,14 @@
 
   <rect width="1200" height="200" fill="url(#bg)"/>
 
-  <path d="M0,160 C200,120 400,190 700,150 C900,125 1050,170 1200,140 L1200,200 L0,200 Z" fill="url(#wave)"/>
+  <path fill="url(#wave)">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite" values="
+      M0,160 C200,120 400,190 700,150 C900,125 1050,170 1200,140 L1200,200 L0,200 Z;
+      M0,150 C200,185 400,115 700,165 C900,195 1050,125 1200,160 L1200,200 L0,200 Z;
+      M0,165 C200,135 400,175 700,135 C900,110 1050,180 1200,150 L1200,200 L0,200 Z;
+      M0,160 C200,120 400,190 700,150 C900,125 1050,170 1200,140 L1200,200 L0,200 Z
+    "/>
+  </path>
 
   <text x="600" y="95" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">
     Abhijit Mondal Abhi

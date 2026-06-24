@@ -9,19 +9,19 @@
   <style>
     .waveLayerA {
       transform-origin: 50% 100%;
-      animation: bobA 4s ease-in-out infinite alternate;
+      animation: bobA 1.6s ease-in-out infinite alternate;
     }
     .waveLayerB {
       transform-origin: 50% 100%;
-      animation: bobB 5s ease-in-out infinite alternate;
+      animation: bobB 2s ease-in-out infinite alternate;
     }
     @keyframes bobA {
-      from { transform: translateY(0); }
-      to { transform: translateY(-10px); }
+      from { transform: translateY(0) scaleY(1); }
+      to { transform: translateY(-22px) scaleY(1.1); }
     }
     @keyframes bobB {
-      from { transform: translateY(-5px); }
-      to { transform: translateY(7px); }
+      from { transform: translateY(-12px) scaleY(1.05); }
+      to { transform: translateY(16px) scaleY(0.92); }
     }
   </style>
 

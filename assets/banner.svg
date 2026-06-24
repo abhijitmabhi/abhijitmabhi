@@ -13,19 +13,19 @@
   <style>
     .waveLayer1 {
       transform-origin: 50% 100%;
-      animation: bob1 4s ease-in-out infinite alternate;
+      animation: bob1 1.6s ease-in-out infinite alternate;
     }
     .waveLayer2 {
       transform-origin: 50% 100%;
-      animation: bob2 5s ease-in-out infinite alternate;
+      animation: bob2 2s ease-in-out infinite alternate;
     }
     @keyframes bob1 {
-      from { transform: translateY(0); }
-      to { transform: translateY(-12px); }
+      from { transform: translateY(0) scaleY(1); }
+      to { transform: translateY(-30px) scaleY(1.08); }
     }
     @keyframes bob2 {
-      from { transform: translateY(-6px); }
-      to { transform: translateY(8px); }
+      from { transform: translateY(-18px) scaleY(1.05); }
+      to { transform: translateY(22px) scaleY(0.95); }
     }
   </style>
 

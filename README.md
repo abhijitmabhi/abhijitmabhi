@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:0EA5E9&height=200&section=header&text=Abhijit%20Mondal%20Abhi&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%E2%80%94%20Backend%20%26%20Distributed%20Systems&descAlignY=58&descSize=18&animation=fadeIn" />
+<img src="./assets/banner.svg" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2563EB&center=true&vCenter=true&width=600&lines=Java+%2F+Spring+Boot;Event-Driven+Systems+(Kafka%2C+RabbitMQ);Cloud-Native+%E2%80%94+AWS+%2B+Kubernetes;Berlin%2C+Germany" />
 
@@ -43,5 +43,5 @@ Backend-focused engineer building REST APIs and event-driven systems at scale â€
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:2563EB&height=100&section=footer" />
+<img src="./assets/footer.svg" width="100%" />
 </div>

@@ -4,6 +4,10 @@
       <stop offset="0%" stop-color="#0EA5E9"/>
       <stop offset="100%" stop-color="#2563EB"/>
     </linearGradient>
+    <linearGradient id="bg2Back" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0c1f4d"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
   </defs>
 
   <style>
@@ -25,6 +29,6 @@
     }
   </style>
 
-  <path class="waveLayerB" d="M0,55 C250,30 450,75 700,50 C950,30 1050,65 1200,45 L1200,100 L0,100 Z" fill="url(#bg2)" opacity="0.6"/>
+  <path class="waveLayerB" d="M0,55 C250,30 450,75 700,50 C950,30 1050,65 1200,45 L1200,100 L0,100 Z" fill="url(#bg2Back)" opacity="0.85"/>
   <path class="waveLayerA" d="M0,40 C200,80 400,10 700,45 C900,70 1050,20 1200,50 L1200,100 L0,100 Z" fill="url(#bg2)"/>
 </svg>

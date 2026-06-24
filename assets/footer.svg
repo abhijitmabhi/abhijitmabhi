@@ -7,17 +7,24 @@
   </defs>
 
   <style>
-    .waveGroup2 {
-      animation: floatWave2 9s linear infinite;
+    .waveLayerA {
+      transform-origin: 50% 100%;
+      animation: bobA 4s ease-in-out infinite alternate;
     }
-    @keyframes floatWave2 {
-      from { transform: translateX(0); }
-      to { transform: translateX(-1200px); }
+    .waveLayerB {
+      transform-origin: 50% 100%;
+      animation: bobB 5s ease-in-out infinite alternate;
+    }
+    @keyframes bobA {
+      from { transform: translateY(0); }
+      to { transform: translateY(-10px); }
+    }
+    @keyframes bobB {
+      from { transform: translateY(-5px); }
+      to { transform: translateY(7px); }
     }
   </style>
 
-  <g class="waveGroup2">
-    <path d="M0,40 C200,80 400,10 700,45 C900,70 1050,20 1200,50 L1200,100 L0,100 Z" fill="url(#bg2)"/>
-    <path d="M1200,40 C1400,80 1600,10 1900,45 C2100,70 2250,20 2400,50 L2400,100 L1200,100 Z" fill="url(#bg2)"/>
-  </g>
+  <path class="waveLayerB" d="M0,55 C250,30 450,75 700,50 C950,30 1050,65 1200,45 L1200,100 L0,100 Z" fill="url(#bg2)" opacity="0.6"/>
+  <path class="waveLayerA" d="M0,40 C200,80 400,10 700,45 C900,70 1050,20 1200,50 L1200,100 L0,100 Z" fill="url(#bg2)"/>
 </svg>
